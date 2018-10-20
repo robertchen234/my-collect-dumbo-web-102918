@@ -1,3 +1,5 @@
 def my_collect(arr)
-  arr.each{ |x| x.upcase }
+  new_arr = []
+  arr.each{ |x| new_arr << x.upcase }
+  new_arr
 end
